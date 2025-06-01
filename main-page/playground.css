@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url(ppneuemontreal-medium.otf); 
+}
+
+@font-face {
+    font-family: 'DaVinci';
+    src: url(TRJNDaVinci-Light-Italic-Trial.otf);
+}
+
+@font-face {
+    font-family: 'Switzer-Regular';
+    src: url(Switzer-Regular.otf);
+}
+
+.title {
+  font-family: 'NeueMontreal', sans-serif;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-left: 60px;
+}
+
+.subtitle {
+  font-family: 'Switzer-Regular', sans-serif;
+  font-size: 16px;
+  margin-top: -100px;
+  margin-left: 360px;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;   
+    right: 140px;  
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.button-container a {
+  text-decoration: none; 
+  color: inherit;   
+}
+
+.buttonss {
+  margin-top: 9px;
+}
+
+button {
+    font-family: 'NeueMontreal', sans-serif;
+    border: none;
+    background-color: #FFFEFC;
+    color:  #961A22;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Resume-Button {
+    background-color: #961A22;
+    border-radius: 100px;
+    font-family: 'DaVinci', sans-serif;
+    font-size: 16px;
+    padding: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+.designs {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.design1 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 290px; 
+  height: 290px;  
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.design2 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 421px; 
+  height: 290px;  
+  margin-top: 50px;
+}
+
+.design3 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 290px; 
+  height: 290px;  
+  margin-top: 50px;
+}
+
+.design4 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 229px;
+  height: 371px;
+  margin-top: -30px;
+}
+
+.design5 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 567px;
+  height: 290px;
+  margin-top: 5px;
+  margin-left: 60px;
+}
+
+.design6 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 229px;
+  height: 371px;
+  margin-top: 5px;
+}
+
+.design7 {
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+  width: 567px;
+  height: 290px;
+  margin-top: -391px;
+  margin-left: 895px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+  padding-left: 60px;
+  padding-top: 80px;
+  font-family: 'NeueMontreal', sans-serif;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-flower {
+  height: 45px; /* scale as needed */
+  margin-right: 35px;
+}
+
+.footer-title {
+  color: #961A22;
+  font-size: 48px;
+  margin: 0;
+}
+
+.footer-text {
+  color: grey;
+  font-size: 22.36px;
+  margin: 5px 0 0 0;
+}
+
+.right-group {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.resume,
+.linkedin {
+  color: #961A22;
+  font-size: 23.52px;
+  margin: 0;
+}

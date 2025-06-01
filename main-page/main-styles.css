@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'NeueMontreal';
-    src: url(PPNeueMontreal-Medium.otf);
+    src: url(ppneuemontreal-medium.otf); /* <-- correct file for NeueMontreal */
+}
 
+@font-face {
     font-family: 'DaVinci';
     src: url(TRJNDaVinci-Light-Italic-Trial.otf);
 }
@@ -11,60 +13,52 @@
     src: url(Switzer-Light.otf);
 }
 
+
 body {
     font-family: 'NeueMontreal', sans-serif;
     text-align: center;
     background-color: #FFFEFC;
 }
 
-
-.Work-Button {
+.button-container {
     position: absolute;
-    top: 50px;     
-    left: 1165px;   
-    font-family: 'NeueMontreal', sans-serif;
-    border: none;
-    background-color: #FFFEFC;
-    font-size: 19px;
-    cursor: hand;
+    top: 20px;   
+    right: 140px;  
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
-.Playground-Button {
-    position: absolute;
-    top: 50px;      
-    left: 1250px;      
-    font-family: 'NeueMontreal', sans-serif;
-    border: none;
-    background-color: #FFFEFC;
-    font-size: 19px;
-    cursor: hand;
+.buttonss {
+  margin-top: 9px;
 }
 
-.About-Button {
-    position: absolute;
-    top: 50px;       
-    left: 1385px;     
+button {
     font-family: 'NeueMontreal', sans-serif;
     border: none;
     background-color: #FFFEFC;
-    font-size: 19px;
-    cursor: hand;
+    color:  #961A22;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .Resume-Button {
-    position: absolute;
-    top: 38px;       
-    left: 1480px;      
-    font-family: 'DaVinci', sans-serif;
-    border: none;
     background-color: #961A22;
     border-radius: 100px;
+    font-family: 'DaVinci', sans-serif;
     font-size: 16px;
-    cursor: hand;
-    padding: 15px;
-    color: white
+    padding: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
 }
 
+.button-container a {
+  text-decoration: none; 
+  color: inherit;   
+}
 
 .infinite-scroll-container {
     overflow: hidden;
@@ -72,7 +66,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding: 20px 0;
-    margin-top: 100px;
+    margin-top: 130px;
     position: relative;
   }
   
@@ -119,14 +113,159 @@ body {
 
 .Name-Title {
     font-family: 'DaVinci', Arial, sans-serif;
-    font-size: 130px;
+    font-weight: 600;
+    font-size: 10vw;
     color: #961A22;
     margin: 0;
     text-align: center;
 }
 
-
 .Description {
     font-family: 'Switzer-Light', sans-serif;
     font-size: 39px;
+    color: #525252
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.current-section {
+    text-align: left;
+    margin-left: 250px; 
+}
+
+.current-title {
+    color: #961A22;
+    font-family: 'NeueMontreal', sans-serif;
+    font-size: 32px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.current-text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.previous-section {
+    text-align: right;
+    margin-right: 250px; 
+    margin-top: -120px;
+}
+
+.previous-title {
+    color: #961A22;
+    font-family: 'NeueMontreal', sans-serif;
+    font-size: 32px;
+    text-align: left;
+    display: block;
+    margin-left: 867px;
+    margin-bottom: 0px;
+}
+
+.previous-text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.selected-work {
+    font-family: 'NeueMontreal', sans-serif;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    font-size: 48px;
+    margin-left: 240px;
+}
+
+.project1-text {
+    font-family: 'NeueMontreal', sans-serif;
+    display: flex;
+    align-items: center; 
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.project2-text {
+    font-family: 'NeueMontreal', sans-serif;
+    display: flex;
+    align-items: center; 
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+  padding-left: 225px;
+  padding-top: 0px;
+  font-family: 'NeueMontreal', sans-serif;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-flower {
+  height: 45px; /* scale as needed */
+  margin-right: 35px;
+}
+
+.footer-title {
+  color: #961A22;
+  font-size: 48px;
+  margin: 0;
+}
+
+.footer-text {
+  color: grey;
+  font-size: 22.36px;
+  margin: 5px 0 0 0;
+}
+
+.right-group {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  margin-right: 180px;
+  margin-top: 30px;
+}
+
+.resume,
+.linkedin {
+  color: #961A22;
+  font-size: 23.52px;
+  margin: 0;
+}
+
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(-20px); /* Start a bit above */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0); /* Ends at normal position */
+}
+

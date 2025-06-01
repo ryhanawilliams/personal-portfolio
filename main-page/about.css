@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'NeueMontreal';
+    src: url(ppneuemontreal-medium.otf); 
+}
+
+@font-face {
+    font-family: 'DaVinci';
+    src: url(TRJNDaVinci-Light-Italic-Trial.otf);
+}
+
+@font-face {
+    font-family: 'Switzer-Regular';
+    src: url(Switzer-Regular.otf);
+}
+
+.intro-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 120px;
+  gap: 10px;
+}
+
+.left-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 55%;
+}
+
+.left-group img {
+  margin-bottom: 30px;
+  margin-left: -260px;
+}
+
+.title {
+  font-family: 'NeueMontreal', sans-serif;
+  font-size: 68px;
+  margin-top: -100px;
+  margin-left: -30px;
+}
+
+.title-message {
+  font-family: 'Switzer-Regular', sans-serif;
+  font-size: 24px;
+  margin-top: -10px;
+}
+
+.right-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.exclamation-point {
+  width: 70px; 
+  height: auto;
+  margin-top: -560px;
+  margin-right: -40px;
+}
+
+.personal-picture {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.about-me-paragraphs {
+  display: flex;    
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;       
+  align-items: flex-start;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: 'NeueMontreal'
+}
+
+.titlemessagep {
+    color:  #961A22;
+    font-size: 42px;
+
+}
+
+.bodytextp {
+  margin-top: -30px;
+  font-family: 'Switzer-Regular', sans-serif;
+  font-size: 19px;
+}
+
+.life-through-my-eyes {
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  gap: 15px;
+  margin-left: 150px;
+}
+
+.finaltitle {
+  color:  #961A22;
+  font-size: 42px;
+  text-align: left;
+  margin-left: 150px;
+  font-family: 'NeueMontreal'
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;   
+    right: 140px;  
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+button {
+    font-family: 'NeueMontreal', sans-serif;
+    border: none;
+    background-color: #FFFEFC;
+    color:  #961A22;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Resume-Button {
+    background-color: #961A22;
+    border-radius: 100px;
+    font-family: 'DaVinci', sans-serif;
+    font-size: 16px;
+    padding: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+  padding-left: 60px;
+  padding-top: 80px;
+  font-family: 'NeueMontreal', sans-serif;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-flower {
+  height: 45px; /* scale as needed */
+  margin-right: 35px;
+}
+
+.footer-title {
+  color: #961A22;
+  font-size: 48px;
+  margin: 0;
+}
+
+.footer-text {
+  color: grey;
+  font-size: 22.36px;
+  margin: 5px 0 0 0;
+}
+
+.right-group {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.resume,
+.linkedin {
+  color: #961A22;
+  font-size: 23.52px;
+  margin: 0;
+}
