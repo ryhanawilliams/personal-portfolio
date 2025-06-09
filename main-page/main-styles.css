@@ -108,7 +108,7 @@ button {
 }
 
 .Header-Section {
-    margin-top: 180px; /* move the whole block down */
+    margin-top: 180px; 
 }
 
 .Name-Title {
@@ -268,4 +268,5 @@ html, body {
   opacity: 1;
   transform: translateY(0); /* Ends at normal position */
 }
+
 
